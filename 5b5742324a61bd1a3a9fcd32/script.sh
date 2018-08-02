@@ -3,10 +3,9 @@
       git clone https://Conley31@bitbucket.org/bythebook/mobile-app.git
       cd mobile-app
 
-      git archive --remote=git://Conley31@bitbucket.org/bythebook/customerconfig.git HEAD:5b5742324a61bd1a3a9fcd32/ app.json | tar -x
-      curl https://bitbucket.org/bythebook/customerconfig/src/master/5b5742324a61bd1a3a9fcd32/app.json --output app.json
-      curl https://bitbucket.org/bythebook/customerconfig/src/master/5b5742324a61bd1a3a9fcd32/config.json --output config.json
-      curl https://bitbucket.org/bythebook/customerconfig/src/master/5b5742324a61bd1a3a9fcd32/splash.jpeg --output splash.jpeg
+      curl https://bitbucket.org/Conley31/customerconfig/raw/efda04162c9d19e0b27e7a32bfc8a0bbecec4b3b/5b5742324a61bd1a3a9fcd32/app.json --output app.json
+      curl https://bitbucket.org/Conley31/customerconfig/raw/efda04162c9d19e0b27e7a32bfc8a0bbecec4b3b/5b5742324a61bd1a3a9fcd32/config.json --output config.json
+      curl https://bitbucket.org/Conley31/customerconfig/raw/efda04162c9d19e0b27e7a32bfc8a0bbecec4b3b/5b5742324a61bd1a3a9fcd32/splash.jpeg --output splash.jpeg
 
       #### 2. Script Setup ####
       # It's useful to exit the bash script when a command exits with a non-zero status

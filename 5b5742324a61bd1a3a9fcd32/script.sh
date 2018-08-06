@@ -9,6 +9,8 @@
       curl https://raw.githubusercontent.com/conley31/customerConfig/master/5b5742324a61bd1a3a9fcd32/app.json --output app.json
       curl https://raw.githubusercontent.com/conley31/customerConfig/master/5b5742324a61bd1a3a9fcd32/config.json --output config.json
       curl https://raw.githubusercontent.com/conley31/customerConfig/master/5b5742324a61bd1a3a9fcd32/splash.png --output splash.png
+      curl https://raw.githubusercontent.com/conley31/customerConfig/master/5b5742324a61bd1a3a9fcd32/logo.png --output logo.png
+
 
       #### 2. Script Setup ####
       # It's useful to exit the bash script when a command exits with a non-zero status

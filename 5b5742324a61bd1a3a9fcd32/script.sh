@@ -36,7 +36,7 @@
       # Use fastlane to upload your current standalone android build
       # Customize this to fit your needs. Take note of env variables.
       # Check out https://docs.fastlane.tools for more info.
-      # fastlane supply --track 'production' --json_key '<path/to/json_key.json>' --package_name "<your-package-name>" --apk "app.apk" --skip_upload_metadata --skip_upload_images --skip_upload_screenshots
+      fastlane supply --track 'production' --package_name "jakes-coding-shack" --apk "app.apk" --skip_upload_metadata --skip_upload_images --skip_upload_screenshots
       
       #### 6. Building iOS Standalone App ####
       expo build:ios --release-channel production
@@ -44,8 +44,8 @@
       
       #### 7. Submit standalone iOS app to iTunes Connect ####
       # Make sure the following env variables are set
-      # export DELIVER_USERNAME=<your-itunes-connect-email>
-      # export DELIVER_PASSWORD=<your-itunes-connect-password>
+      export DELIVER_USERNAME=david@bythebook.com
+      export DELIVER_PASSWORD=Dacgen15241524
       
       # Use fastlane to upload your current standalone iOS build to itc
       # fastlane deliver --verbose --ipa "app.ipa" --skip_screenshots --skip_metadata

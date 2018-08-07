@@ -36,7 +36,7 @@
       # Use fastlane to upload your current standalone android build
       # Customize this to fit your needs. Take note of env variables.
       # Check out https://docs.fastlane.tools for more info.
-      fastlane supply --track 'production' --json_key 'google_auth.json' --package_name "com.ByTheBook.jakes-coding-shack" --apk "app.apk" --skip_upload_metadata --skip_upload_images --skip_upload_screenshots
+      fastlane supply --track 'production' --json_key 'google_auth.json' --package_name "com.ByTheBook.jakescodingshack" --apk "app.apk" --skip_upload_metadata --skip_upload_images --skip_upload_screenshots
       
       #### 6. Building iOS Standalone App ####
       expo build:ios --release-channel production
